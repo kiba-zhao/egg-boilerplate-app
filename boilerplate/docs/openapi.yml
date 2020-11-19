@@ -1,0 +1,30 @@
+openapi: 3.0.2
+info:
+  title: {{name}}
+  description: {{description}}
+  version: 1.0.0
+  contact:
+    name: {{author}}
+servers:
+- url: /
+  description: 本地调试
+- url: /{{name}}
+  description: 运行环境（开发,测试）
+tags:
+paths:
+components:
+  parameters:
+    headerAppId:
+      name: App-ID
+      in: header
+      description: 应用唯一标识
+      schema:
+        type: string
+        format: uuid
+      example: 00000000-0000-0000-0000-000000000000
+    headerAuthId:
+      name: Auth-ID
+      in: header
+      description: 身份认证唯一标识
+      schema:
+        type: string
