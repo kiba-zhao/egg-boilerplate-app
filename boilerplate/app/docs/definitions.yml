@@ -1,0 +1,9 @@
+components:
+  schemas:
+    resource:
+      title: 资源数据
+      type: object
+      properties:
+        appId:
+          type: string
+          title: 应用Id
