@@ -27,4 +27,12 @@ components:
       in: header
       description: 身份认证唯一标识
       schema:
-        type: string
+        type: string  
+  schemas:
+    resource:
+      title: 资源数据
+      type: object
+      properties:
+        appId:
+          type: string
+          title: 应用Id

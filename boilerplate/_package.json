@@ -11,7 +11,8 @@
     "egg-sequelize":"^6.0.0",
     "egg-redis":"^2.4.0",
     "egg-simple-framework": "git://github.com:kiba-zhao/egg-simple-framework.git",
-    "egg-scripts": "^2.11.0"
+    "egg-scripts": "^2.11.0",
+    "mysql2": "^2.2.5"
   },
   "devDependencies": {
     "autod": "^3.0.1",
