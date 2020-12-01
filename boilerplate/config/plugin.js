@@ -6,12 +6,17 @@
  */
 'use strict';
 
-exports.redis = {
-  enable: true,
-  package: 'egg-redis',
-};
+// exports.redis = {
+//   enable: false,
+//   package: 'egg-redis',
+// };
 
-exports.sequelize = {
-  enable: true,
-  package: 'egg-sequelize',
-};
+// exports.sequelize = {
+//   enable: false,
+//   package: 'egg-sequelize',
+// };
+
+// exports.rabbitmq = {
+//   enable: false,
+//   package: 'egg-rabbitmq',
+// };
