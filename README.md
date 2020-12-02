@@ -27,12 +27,11 @@ Boilerplate for egg quickstart.
 **Don't `npm i` this directly**
 
 ```bash
-$ npm i -g egg-init
-$ egg-init --type simple showcase
-$ cd showcase
+$ npm init egg --package egg-boilerplate-app app
+$ cd app
 $ npm i
 $ npm run dev
-$ open http://localhost:7001
+$ open http://localhost:7001/docs/
 ```
 
 See [egg-init](https://github.com/eggjs/egg-init) for more detail.
