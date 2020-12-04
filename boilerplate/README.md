@@ -12,6 +12,7 @@ see [egg docs][egg] for more detail.
 
 ```bash
 $ npm i
+$ docker-compose up -d
 $ npm run dev
 $ open http://localhost:7001/docs/
 ```
